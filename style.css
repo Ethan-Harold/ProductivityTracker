@@ -1,1 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anek Gurmukhi', 'sans serif';
+  background-color: rgb(35, 43, 50);
+}
 
+.add-task {
+  cursor: pointer;
+  margin: 10px 10px;
+  height:60px;
+  width: 120px;
+  background-color: rgb(255, 0, 0);
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bolder;
+}
+
+.sheet {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(white,blue,grey);
+  opacity: 0.2;
+}
